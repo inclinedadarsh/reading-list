@@ -8,12 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      keyframes: {
+        shadowPulse: {
+          '0%': { boxShadow: '0 0 0 0 rgba(0, 0, 0, 0.7)' },
+          '70%': { boxShadow: '0 0 0 10px rgba(0, 0, 0, 0)' },
+          '100%': { boxShadow: '0 0 0 0 rgba(0, 0, 0, 0)' }
+        }
       },
-    },
+      animation: {
+        shadowPulse: 'shadowPulse 2s infinite'
+      }
+    }
   },
   plugins: [],
 };
