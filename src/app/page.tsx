@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <ViewContainer className='pb-8'>
             <header className='py-10 border-[#e5e5e5] border-b'>
-                <p className='text-2xl font-bold transition duration-300 ease-in-out -skew-x-[16deg] translate-x-[3px] hover:skew-x-0 hover:translate-x-0 w-fit'>
+                <p className='text-2xl font-bold transition duration-200 ease-in-out -skew-x-[16deg] translate-x-[3px] hover:skew-x-0 hover:translate-x-0 w-fit'>
                     ia.
                 </p>
                 <h1 className='mt-14 text-4xl font-bold'>My reading list</h1>
@@ -47,10 +47,10 @@ export default function Home() {
                     </Link>
                     .
                 </p>
-                <div className='my-6 flex gap-6 items-center'>
+                <div className='my-6 flex gap-3 sm:gap-6 flex-col sm:flex-row sm:items-center'>
                     <Link
                         href='https://x.com/inclinedadarsh'
-                        className='px-4 py-2 rounded-full bg-black text-white shadow-lg hover:scale-105 transition ease-in-out'
+                        className='w-fit px-4 py-2 rounded-full bg-black text-white shadow-lg hover:scale-105 transition ease-in-out'
                         target='_blank'
                         rel='noopener noreferrer'
                     >
