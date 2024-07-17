@@ -1,9 +1,19 @@
+import List from "@/components/List";
 import ViewContainer from "@/components/ViewContainer";
 import Link from "next/link";
 
+import ListData from "@/list.json";
+
+const readingListData = ListData.filter((item) => item.type == "reading-list");
+const blogData = ListData.filter((item) => item.type == "blog");
+const bookData = ListData.filter((item) => item.type == "book");
+const researchPaperData = ListData.filter(
+    (item) => item.type == "research-paper"
+);
+
 export default function Home() {
     return (
-        <ViewContainer className=''>
+        <ViewContainer className='pb-8'>
             <header className='py-10 border-[#e5e5e5] border-b'>
                 <p className='text-2xl font-bold transition duration-300 ease-in-out -skew-x-[16deg] translate-x-[3px] hover:skew-x-0 hover:translate-x-0 w-fit'>
                     ia.
@@ -53,6 +63,15 @@ export default function Home() {
                     </p>
                 </div>
             </header>
+            <main className='mt-14 pb-10 space-y-10 border-[#e5e5e5] border-b'>
+                <List title='Blogs' list={blogData} />
+                <List title='Research papers' list={researchPaperData} />
+                <List title='Books' list={bookData} />
+                <List title='Reading list' list={readingListData} />
+            </main>
+            <footer className='mt-10 text-gray-700'>
+                &copy; 2024 Adarsh Dubey
+            </footer>
         </ViewContainer>
     );
 }

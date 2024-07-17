@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Anatomy of shadcn/ui",
+        "url": "https://manupa.dev/blog/anatomy-of-shadcn-ui",
+        "type": "reading-list"
+    },
+    {
+        "name": "How do We Store... Nothing?",
+        "url": "https://biraj21.github.io/blogs/empty-strings-and-zero-length-arrays.html",
+        "type": "blog"
+    },
+    {
+        "name": "Deep learning from scratch",
+        "url": "https://www.amazon.in/Deep-Learning-Scratch-Building-Principles/dp/935213902X",
+        "type": "book"
+    },
+    {
+        "name": "The monk who sold his ferrari",
+        "url": "https://www.amazon.in/Monk-Who-Sold-His-Ferrari/dp/817992162X",
+        "type": "book"
+    },
+    {
+        "name": "Learn To Implement Papers",
+        "url": "https://medium.com/geekculture/learn-to-implement-papers-beginners-guide-bb1c8bd61f08",
+        "type": "reading-list"
+    },
+    {
+        "name": "PyTorch from scratch in rust",
+        "url": "https://nrehiew.github.io/blog/pytorch/",
+        "type": "reading-list"
+    },
+    {
+        "name": "History of deep learning",
+        "url": "https://github.com/adam-maj/deep-learning",
+        "type": "reading-list"
+    },
+    {
+        "name": "Feedforward neural networks",
+        "url": "https://jonaslalin.com/2021/12/10/feedforward-neural-networks-part-1/",
+        "type": "blog"
+    },
+    {
+        "name": "Feedforward neural networks: activations",
+        "url": "https://jonaslalin.com/2021/12/10/feedforward-neural-networks-part-2/",
+        "type": "blog"
+    },
+    {
+        "name": "Feedforward neural networks: cost",
+        "url": "https://jonaslalin.com/2021/12/10/feedforward-neural-networks-part-3/",
+        "type": "blog"
+    },
+    {
+        "name": "30 must read research papers",
+        "url": "https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE",
+        "type": "reading-list"
+    }
+]
