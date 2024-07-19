@@ -53,5 +53,10 @@
         "name": "30 must read research papers",
         "url": "https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE",
         "type": "reading-list"
+    },
+    {
+        "name": "The NumPy array",
+        "url": "https://arxiv.org/pdf/1102.1523",
+        "type": "reading-list"
     }
 ]
